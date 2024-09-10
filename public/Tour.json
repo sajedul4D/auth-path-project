@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "image": "../src/assets/eifel.jpg",
+        "title": "Eiffel Tower",
+        "location": "Paris, France",
+        "details": "The Eiffel Tower, an enduring symbol of Paris, was completed in 1889 as the entrance arch to the 1889 Exposition Universelle (World's Fair) held to commemorate the 100th anniversary of the French Revolution. Designed by the French engineer Gustave Eiffel, the tower stands at 324 meters (1,063 feet) tall and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930. The tower is constructed from iron and weighs about 10,000 tons. Visitors can take elevators or climb stairs to the three viewing platforms, which offer spectacular panoramic views of Paris. The tower is illuminated every evening, making it a stunning sight against the night sky. It also has a rich history of cultural and scientific significance, serving as a radio transmission tower and hosting various art and scientific exhibitions. The Eiffel Tower remains one of the most visited monuments in the world, attracting millions of tourists annually, and is recognized as a global cultural icon of France."
+    },
+    {
+        "id": 2,
+        "image": "../src/assets/staue.jpg",
+        "title": "Statue of Liberty",
+        "location": "New York, USA",
+        "details": "The Statue of Liberty, a colossal neoclassical sculpture on Liberty Island in New York Harbor, was a gift from France to the United States, dedicated on October 28, 1886. Designed by French architect Gustave Eiffel and sculptor Frédéric Auguste Bartholdi, the statue represents Libertas, the Roman goddess of freedom. Standing at 93 meters (305 feet) from the base to the tip of the torch, it was the tallest statue in the world at the time of its completion. The statue's copper skin is supported by a framework of steel, and it has become a symbol of freedom and democracy. The statue's pedestal and the adjacent museum offer insights into its history and significance. Visitors can take ferries from Manhattan to Liberty Island, where they can explore the monument, enjoy views of New York City, and learn about the statue's role in American history. The Statue of Liberty remains one of the most recognizable landmarks in the world and a key symbol of the United States' values of liberty and democracy."
+    },
+    {
+        "id": 3,
+        "image": "../src/assets/colossum.jpg",
+        "title": "Colosseum",
+        "location": "Rome, Italy",
+        "details": "The Colosseum, also known as the Flavian Amphitheatre, is an ancient amphitheater located in the center of Rome, Italy. It was commissioned by Emperor Vespasian of the Flavian dynasty in AD 70, with construction completed in AD 80 under his successor and heir, Titus. The Colosseum is renowned for its massive size and architectural innovation, featuring a complex system of vaults and arches. It was used for gladiatorial contests, public spectacles, and theatrical performances, with a seating capacity of up to 80,000 spectators. The structure measures 189 meters (620 feet) long, 156 meters (512 feet) wide, and stands about 48 meters (157 feet) tall. The Colosseum’s grand design includes a retractable awning system and a sophisticated network of underground passages. Although it has suffered damage from earthquakes and stone robbers over the centuries, it remains an iconic symbol of ancient Rome and a testament to Roman engineering and architectural prowess. The Colosseum continues to attract millions of visitors each year, offering a glimpse into the grandeur of Roman public entertainment."
+    },
+    {
+        "id": 4,
+        "image": "../src/assets/china.jpg",
+        "title": "Great Wall of China",
+        "location": "China",
+        "details": "The Great Wall of China is one of the most impressive and enduring feats of ancient engineering. Stretching over 13,000 miles (21,000 kilometers), it was built to protect Chinese states and empires from invasions by nomadic tribes and military incursions. The wall's construction began as early as the 7th century BC, but most of the existing wall was built during the Ming Dynasty (1368–1644). It is not a single continuous wall but rather a series of walls and fortifications made from various materials, including earth, wood, and stone. The wall features watchtowers, beacon towers, and fortresses at regular intervals, which were used for communication and defense. The Great Wall passes through diverse landscapes, including deserts, mountains, and plains. It is considered one of the greatest achievements of human engineering and construction. Today, it is a UNESCO World Heritage Site and a popular tourist attraction, symbolizing China's historical strength and determination. The wall’s construction techniques and its historical significance continue to captivate and inspire visitors worldwide."
+    },
+    {
+        "id": 5,
+        "image": "../src/assets/taj.jpg",
+        "title": "Taj Mahal",
+        "location": "Agra, India",
+        "details": "The Taj Mahal is a stunning white marble mausoleum located in Agra, India, and is widely considered one of the most beautiful buildings in the world. Commissioned by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal, the Taj Mahal was completed in 1653 after 22 years of construction. The mausoleum is renowned for its exquisite architecture, which combines elements of Islamic, Persian, Ottoman Turkish, and Indian styles. The central dome, which stands at 73 meters (240 feet) high, is surrounded by four minarets and set within a lush, symmetrical garden. The marble is inlaid with precious stones in intricate patterns, and the complex includes a mosque and a guest house. The Taj Mahal is also a UNESCO World Heritage Site, recognized for its outstanding universal value. It draws millions of visitors annually, who come to admire its architectural splendor and the romantic story behind its creation. The monument is a symbol of eternal love and a masterpiece of Mughal architecture."
+    },
+    {
+        "id": 6,
+        "image": "../src/assets/niagara.jpg",
+        "title": "Niagara Falls",
+        "location": "Ontario, Canada / New York, USA",
+        "details": "Niagara Falls is a group of three waterfalls located on the border between Ontario, Canada, and New York, USA. The three waterfalls are the American Falls, Bridal Veil Falls, and the larger Horseshoe Falls. Together, they form one of the most powerful and visually striking natural attractions in North America. The combined flow rate of the falls is approximately 85,000 cubic feet per second, making it one of the largest and most impressive waterfalls in the world. The falls are renowned for their breathtaking beauty and the mist that creates frequent rainbows. Visitors can experience the falls from various viewpoints, including observation decks, boat tours, and even behind the falls through a series of tunnels. The surrounding area is home to numerous attractions, including casinos, parks, and museums. Niagara Falls also plays a significant role in hydroelectric power generation, with several power plants harnessing the falls' energy. The falls have long been a popular destination for tourists and honeymooners, symbolizing the grandeur of natural beauty and human ingenuity."
+    },
+    {
+        "id": 7,
+        "image": "../src/assets/machi.jpg",
+        "title": "Machu Picchu",
+        "location": "Peru",
+        "details": "Machu Picchu is a 15th-century Inca citadel located high in the Andes Mountains in Peru. Believed to have been built by the Inca emperor Pachacuti, it was constructed in the mid-1400s and later abandoned during the Spanish Conquest. Rediscovered in 1911 by American historian Hiram Bingham, Machu Picchu is renowned for its well-preserved ruins and stunning location. The site is divided into two main areas: the agricultural terraces and the urban sector, which includes temples, palaces, and residential buildings. The precision of Inca masonry, with stones carefully cut to fit together without mortar, is a remarkable feature of the site. Machu Picchu is often referred to as the Lost City of the Incas and has been designated a UNESCO World Heritage Site. It offers spectacular panoramic views of the surrounding mountains and valleys. Visitors can explore the ruins, hike the Inca Trail, or enjoy breathtaking views from the Intihuatana stone, a ritual stone associated with astronomy. Machu Picchu continues to captivate historians, archaeologists, and tourists alike with its mystery and beauty."
+    },
+    {
+        "id": 8,
+        "image": "../src/assets/chist.jpg",
+        "title": "Christ the Redeemer",
+        "location": "Rio de Janeiro, Brazil",
+        "details": "Christ the Redeemer is a colossal statue of Jesus Christ located in Rio de Janeiro, Brazil. Standing at 30 meters (98 feet) tall, with arms stretching 28 meters (92 feet) wide, it is situated atop the Corcovado Mountain in the Tijuca Forest National Park. Designed by Brazilian engineer Heitor da Silva Costa and sculpted by French artist Paul Landowski, the statue was completed in 1931. It is constructed from reinforced concrete and covered with soapstone tiles, giving it a distinctive, smooth finish. Christ the Rede"},
+    
+    
+        
+            {
+                "id": 9,
+                "image": "../src/assets/shundarban.jpg",
+                "title": "Sundarbans",
+                "location": "Khulna Division, Bangladesh",
+                "details": "The Sundarbans, located in the southwest of Bangladesh, is the largest mangrove forest in the world and a UNESCO World Heritage Site. Covering an area of approximately 10,000 square kilometers, this vast and intricate network of tidal waterways, mudflats, and mangrove forests is renowned for its unique ecosystem and biodiversity. The Sundarbans is home to the Bengal tiger, an endangered species that is crucial to the forest’s ecological balance. The region also hosts a variety of other wildlife, including saltwater crocodiles, spotted deer, and numerous bird species. The forest plays a significant role in protecting the coastal areas from erosion and storm surges. The labyrinth of rivers and channels can be explored by boat, offering visitors a chance to witness the natural beauty and wildlife of the area. Efforts are ongoing to preserve this crucial environment, which faces threats from deforestation, climate change, and human encroachment. The Sundarbans is a symbol of Bangladesh’s natural heritage and a vital area for global biodiversity."
+            },
+            {
+                "id": 10,
+                "image": "../src/assets/the cox.jpg",
+                "title": "Cox's Bazar",
+                "location": "Cox's Bazar District, Bangladesh",
+                "details": "Cox's Bazar, located in southeastern Bangladesh, is renowned for having the longest natural sea beach in the world, stretching approximately 120 kilometers along the Bay of Bengal. This popular tourist destination is famous for its golden sandy beach, clear blue waters, and picturesque sunsets. The beach offers a variety of activities, including swimming, beach volleyball, and seafood dining. In addition to the beach, Cox's Bazar has attractions such as Himchari National Park, which features waterfalls and diverse wildlife, and Inani Beach, known for its coral reefs and tranquil environment. The town also serves as a gateway to the neighboring Ruma and Bandarban districts, where visitors can explore hill tracts and tribal cultures. The local markets and street food, including fresh seafood and traditional Bangladeshi snacks, add to the charm of the area. Cox's Bazar is a favorite destination for both local and international tourists seeking relaxation and natural beauty."
+            },
+            {
+                "id": 11,
+                "image": "../src/assets/syllet.jpg",
+                "title": "Sylhet",
+                "location": "Sylhet Division, Bangladesh",
+                "details": "Sylhet, located in the northeastern region of Bangladesh, is renowned for its lush green tea gardens, rolling hills, and picturesque landscapes. The region is known for its natural beauty and vibrant culture, making it a popular destination for tourists. Sylhet is home to the Ratargul Swamp Forest, one of the few freshwater swamp forests in Bangladesh, and the Jaflong area, famous for its scenic beauty and tea estates. The area is also known for the Lawachara National Park, which preserves diverse flora and fauna, including the endangered hoolock gibbons. Sylhet is culturally rich, with a significant presence of Sufi shrines, such as the Hazrat Shahjalal University of Science and Technology, and the Hazrat Shah Paran Shrine, which attract pilgrims and visitors. Additionally, the region's traditional cuisine, including flavorful rice dishes and sweets, enhances the visitor experience. Sylhet’s combination of natural beauty, cultural heritage, and historical significance makes it a must-visit destination in Bangladesh."
+            },
+            {
+                "id": 12,
+                "image": "../src/assets/paharpur.jpg",
+                "title": "Paharpur",
+                "location": "Naogaon District, Bangladesh",
+                "details": "Paharpur, located in the Naogaon District of northwestern Bangladesh, is renowned for the ruins of the ancient Buddhist Vihara of Somapura Mahavihara. This UNESCO World Heritage Site dates back to the 8th century AD and is one of the most significant archaeological sites in South Asia. The site was a major center of Buddhist learning and a prominent monastery during the Pala Empire. The complex consists of a large central temple surrounded by numerous smaller structures and monastic cells, all built with intricate terracotta decorations and inscriptions. The layout of the Vihara, with its unique architectural style and extensive use of terracotta, provides valuable insights into ancient Buddhist art and architecture. The site is also notable for its historical significance in the spread of Buddhism in the region. Paharpur remains an important destination for scholars, historians, and tourists interested in ancient history and Buddhist heritage."
+            },
+            {
+                "id": 13,
+                "image": "../src/assets/ragamati.jpg",
+                "title": "Rangamati",
+                "location": "Chittagong Hill Tracts, Bangladesh",
+                "details": "Rangamati, located in the Chittagong Hill Tracts of southeastern Bangladesh, is renowned for its breathtaking natural beauty and cultural diversity. The district is known for its serene landscapes, including lush green hills, tranquil lakes, and vibrant tribal communities. The main attraction is the Kaptai Lake, a vast artificial lake created by damming the Karnaphuli River, which offers opportunities for boat rides and fishing. Rangamati is also home to various indigenous groups, such as the Chakma, Marma, and Mro, each with their own distinct traditions and crafts. The area features several scenic spots, including the Hanging Bridge, which provides panoramic views of the surrounding hills and lake. Additionally, visitors can explore the cultural heritage of the region through local markets, traditional dances, and festivals. Rangamati’s combination of natural splendor and cultural richness makes it a unique and captivating destination in Bangladesh."
+            },
+            {
+                "id": 14,
+                "image": "../src/assets/mosque.jpg",
+                "title": "Historical Mosque City of Bagerhat",
+                "location": "Bagerhat District, Bangladesh",
+                "details": "The Historical Mosque City of Bagerhat, located in southwestern Bangladesh, is renowned for its impressive collection of Islamic architecture from the medieval period. Founded in the 15th century by the Turkish general Ulugh Khan Jahan, Bagerhat is home to a remarkable number of mosques and other Islamic structures, including the 60 Dome Mosque, which is the most famous and largest mosque in the complex. The city’s architecture is characterized by its intricate brickwork, expansive courtyards, and elegant domes. In addition to the 60 Dome Mosque, notable structures include the Sixty Dome Mosque, the Bibi Begni Mosque, and the Khan Jahan Ali’s Mausoleum. The site reflects the cultural and religious significance of the region during the Bengal Sultanate period. Bagerhat’s historical importance and architectural beauty have earned it a place as a UNESCO World Heritage Site. The city remains an important center for the study of medieval Islamic architecture and history in South Asia."
+            },
+            {
+                "id": 15,
+                "image": "../src/assets/songsid.jpg",
+                "title": "Jatiyo Sangsad Bhaban",
+                "location": "Dhaka, Bangladesh",
+                "details": "The Jatiyo Sangsad Bhaban, or National Parliament House, located in Dhaka, Bangladesh, is one of the most remarkable examples of modern architecture in the world. Designed by the renowned architect Louis Kahn, the building is an architectural marvel that showcases innovative design and construction techniques. Completed in 1982, the complex serves as the seat of the National Parliament of Bangladesh. The design features bold geometric forms, vast open spaces, and a unique use of natural light, creating a visually striking and functional structure. The building’s layout includes a series of interconnected pavilions, a grand assembly hall, and extensive gardens. The Jatiyo Sangsad Bhaban is celebrated for its aesthetic beauty and functional design, and it represents a significant achievement in architectural and engineering excellence. It has been recognized as a UNESCO World Heritage Site for its outstanding architectural value and contribution to modernist design."
+            },
+            {
+                "id": 16,
+                "image": "../src/assets/saint.jpg",
+                "title": "Saint Martin's Island",
+                "location": "Cox's Bazar District, Bangladesh",
+                "details": "Saint Martin's Island, located in the Bay of Bengal, is a small coral island and the southernmost point of Bangladesh. Known for its pristine beaches and crystal-clear waters, Saint Martin's Island is a popular destination for tourists seeking a tranquil escape. The island’s beaches feature white sand and are ideal for swimming, snorkeling, and relaxing by the sea. The island is also home to a variety of marine life, including colorful fish and coral reefs, making it a great spot for underwater exploration. Visitors can enjoy the local seafood, including fresh crab and lobster, and explore the island’s small villages, where traditional Bangladeshi culture and lifestyle are preserved. The island’s remote location adds to its charm, offering a serene environment away from the bustle of mainland life. Saint Martin's Island remains a hidden gem in Bangladesh’s coastal tourism sector, celebrated for its natural beauty and unique ecological features."
+            },
+            {
+                "id": 17,
+                "image": "../src/assets/bandarban.jpg",
+                "title": "Banderban",
+                "location": "Chittagong Hill Tracts, Bangladesh",
+                "details": "Bandarban, situated in the southeastern part of Bangladesh, is renowned for its stunning natural landscapes and diverse indigenous cultures. The region is characterized by its rolling hills, deep valleys, and rich biodiversity. Key attractions include the Nilgiri Hills, which offer panoramic views of the surrounding landscape, and the Sangu River, known for its scenic beauty and opportunities for river cruises. Bandarban is also home to various indigenous communities, such as the Marma, Mro, and Bawm, each with their own unique traditions and crafts. Visitors can explore local markets, sample traditional foods, and participate in cultural festivals. The region’s natural beauty is complemented by its numerous trekking and hiking trails, providing opportunities for adventure and exploration. Notable landmarks include the Buddha Dhatu"
+        
+            },
+            
+                {
+                    "id": 18,
+                   
+                    "title": "Taj Mahal",
+                    "image": "../src/assets/taj.jpg",
+                    "location": "Agra, Uttar Pradesh, India",
+                    "details": "The Taj Mahal, located in Agra, Uttar Pradesh, is one of the most iconic and beautiful structures in the world. Built between 1631 and 1648 by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal, this white marble mausoleum is renowned for its stunning architectural beauty and intricate craftsmanship. The Taj Mahal features a large central dome, flanked by four minarets, and is surrounded by lush gardens, reflecting pools, and beautifully designed pathways. Its construction involved artisans from various parts of India and Central Asia, using materials like white marble, precious stones, and semi-precious gems. The monument’s symmetry and detailed inlay work are considered masterpieces of Mughal architecture. The Taj Mahal is not only a symbol of eternal love but also an architectural marvel with its harmonious proportions and intricate designs. Recognized as a UNESCO World Heritage Site, it attracts millions of tourists every year who come to admire its beauty and learn about its rich historical significance."
+                },
+                {
+                    "id": 19,
+                    "title": "Qutub Minar",
+                    "image": "../src/assets/qutub.jpg",
+                    "location": "Delhi, India",
+                    "details": "The Qutub Minar, located in Delhi, is one of India’s most significant historical monuments and a UNESCO World Heritage Site. Constructed in 1193 by Qutb-ud-din Aibak, the founder of the Delhi Sultanate, the minaret stands at a height of 73 meters (240 feet) and is made of red sandstone, adorned with intricate carvings and inscriptions in Arabic. The Qutub Minar is the tallest brick minaret in the world and is an excellent example of early Indo-Islamic architecture. The structure is decorated with verses from the Quran and various decorative motifs, showcasing the craftsmanship of the era. The Qutub Minar is part of a larger complex that includes the Quwwat-ul-Islam Mosque, the Iron Pillar of Delhi, and several other historical ruins. The site is a popular tourist attraction, offering insights into the architectural and historical achievements of the medieval period in India. Its towering presence and detailed artistry make it a must-visit for history enthusiasts and travelers alike."
+                },
+                {
+                    "id": 20,
+                    "title": "Jaipur City Palace",
+                    "image": "../src/assets/jaipur.jpg",
+                    "location": "Jaipur, Rajasthan, India",
+                    "details": "The Jaipur City Palace, located in the heart of Jaipur, Rajasthan, is a splendid example of royal architecture and grandeur. Constructed in the early 18th century by Maharaja Sawai Jai Singh II, the founder of Jaipur, the palace is a blend of Rajasthani and Mughal architectural styles. The palace complex includes several courtyards, gardens, and buildings, each with its own unique design and historical significance. Notable sections of the palace include the Mubarak Mahal, which now houses a museum with a rich collection of royal costumes and artifacts, and the Chandra Mahal, which is still used by the royal family. The palace’s intricate latticework, ornate mirrors, and vibrant frescoes reflect the opulence and artistic flair of the era. The City Palace is not only a historical monument but also a symbol of Jaipur’s rich cultural heritage. It attracts tourists from around the world who come to explore its regal history, stunning architecture, and beautiful interiors."
+                },
+                {
+                    "id": 21,
+                    "title": "Gateway of India",
+                    "image": "../src/assets/prado-5EI5JYMSvj8-unsplash.jpg",
+                    "location": "Mumbai, Maharashtra, India",
+                    "details": "The Gateway of India, located in Mumbai, Maharashtra, is one of India’s most famous landmarks and a symbol of the city’s historical and cultural heritage. Designed by the British architect George Wittet and completed in 1924, the gateway is a monumental archway built from basalt stone. Standing at 26 meters (85 feet) high, it was constructed to commemorate the visit of King George V and Queen Mary to India in 1911. The gateway features Indo-Saracenic architectural style, combining elements of Hindu, Muslim, and Western designs, and includes intricate carvings and decorative motifs. It is situated on the waterfront of the Arabian Sea and offers stunning views of the Mumbai harbor. The Gateway of India has been a focal point for various significant events in Indian history, including independence celebrations and public gatherings. Today, it remains a popular tourist attraction and a gathering place for locals and visitors alike, representing the city’s colonial past and vibrant present."
+                }
+            ]
+            
