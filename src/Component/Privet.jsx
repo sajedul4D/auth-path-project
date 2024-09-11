@@ -8,7 +8,7 @@ const Privet = ({children}) => {
     const location=useLocation();
     console.log(location.pathname);
     if(loading){
-        return <span className="loading loading-ring loading-lg"></span>
+        return <div className="text-center "><span className="loading loading-ring  loading-lg"></span></div>
     }
 if(user){
     return children
