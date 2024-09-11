@@ -16,11 +16,11 @@ const Details = () => {
         </div>
         <br /> <hr />
   <figure>
-    <img className="w-[950px] h-[650px]"
+    <img className="lg:w-[950px] h-[650px] md:w-[650px] sm:w-[450px]"
       src={job.image}
       alt="Shoes" />
   </figure>
-  <div className="card-body w-[950px] mx-auto">
+  <div className="card-body w-[950px] mx-auto md:w-[650px] sm:w-[450px]">
     <h2 className="card-title">{job.location}</h2>
     
     <p className="font-poppins">{job.details}</p>

@@ -22,7 +22,7 @@ const Home = () => {
         <h2 className='text-3xl font-poppins font-bold text-center '>View now World Top Famous Tourist Place</h2> <hr />
 <div className='grid  md:grid-cols-2 gap-1 lg:grid-cols-3 sm:grid-cols-2'>
   
-     { 
+     {  
       user?.slice(0,dataLength)?.map(blog=><Blog key={blog.id} blog={blog} ></Blog>)
   }
   

@@ -7,7 +7,7 @@ const Blog = ({blog}) => {
         <div className="max-w-lg p-4 shadow-md dark:bg-gray-50 dark:text-gray-800">
 	
 	<div className="space-y-4">
-		<div className="space-y-2">
+		<div className="space-y-2 ">
 			<img src={image}alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500 hover:scale-110 duration-100 transition-transform " />
 			
 			
