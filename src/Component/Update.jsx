@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const Update = () => {
     const {user}=useContext(AuthContext)
     return (
-		<div className="max-w-md mx-auto p-8 sm:flex sm:space-x-6 dark:bg-gray-50 dark:text-gray-800">
+		<div className="max-w-md mx-auto p-8 sm:flex sm:space-x-6 dark:bg-gray-50 dark:text-gray-800"> <br />
+			<h2 className="text-2xl font-poppins font-bold text-center">Your Profile</h2>
 		{
 user ? <>
 
