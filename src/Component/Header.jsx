@@ -1,12 +1,30 @@
 
+
 import { Link, NavLink } from 'react-router-dom';
 
+
+import { useContext } from 'react';
+import { AuthContext } from '../AuthProvider/Provider';
+
 const Header = () => {
+  const {user,LogOut}=useContext(AuthContext);
+  console.log(user);
+  const handleLogOut=()=>{
+    LogOut()
+    // .then(result=>{
+    //   console.log(result.user);
+    // })
+  }
+  
     const link=<>
     
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/about">About</NavLink></li>
     <li><NavLink to="/contact">Contact</NavLink></li>
+    {
+      user &&  <> <li><NavLink to="/comment">comment</NavLink></li>
+       <li><NavLink to="/update">Profile Update</NavLink></li> </>
+    }
     </>
     return (
         <div className="navbar bg-base-100">
@@ -39,21 +57,23 @@ const Header = () => {
     {link}
     </ul>
   </div>
-  <div className="navbar-end">
-   <Link to="/login" className='ml-5'> <a className="btn">login</a></Link>
-   <div className="dropdown dropdown-hover">
-  <div tabIndex={0} role="button" className="btn m-1">
-    <div className="avatar">
-  <div className="ring-primary ring-offset-base-100 w-12 rounded-full ring ring-offset-2">
-    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+  
+  <div className="navbar-end gap-5">
+  { user ? <> <span>{user.email}</span>
+  <button
+  onClick={handleLogOut}>Logout</button>
+   </>
+   :
+  <Link to='/login'>
+    <button  className="btn btn-sm">login</button>
+  </Link>
+   }
+
+  
   </div>
-</div></div>
-  <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-  </ul>
-</div>
-  </div>
+  
+  
+
 </div>
     );
 };

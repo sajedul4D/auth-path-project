@@ -6,6 +6,8 @@ import Register from "../Component/Register";
 import Details from "../Component/Details";
 import Contact from "../Component/Contact";
 import About from "../Component/About";
+import Update from "../Component/Update";
+import Privet from "../Component/Privet";
 
  const router=createBrowserRouter([{
     path:"/",
@@ -19,7 +21,7 @@ import About from "../Component/About";
         {
           path:'/details/:id',
           loader:()=> fetch("../Tour.json"),
-          element:<Details></Details>
+          element:<Privet><Details></Details></Privet>
         },
         {
             path:"/login",
@@ -36,6 +38,10 @@ import About from "../Component/About";
         {
             path:'/about',
             element:<About></About>
+        },
+        {
+            path:'/update',
+            element:<Update></Update>
         }
     ]
 

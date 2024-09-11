@@ -1,11 +1,12 @@
-import  {  useState } from 'react';
+import  {  useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import { AuthContext } from '../assets/AuthProvider/AuthProvider';
+
 import { FaRegEye,FaEyeSlash } from "react-icons/fa";
+import { AuthContext } from '../AuthProvider/Provider';
 
 const Register = () => {
    
-    // const {createUser}=useContext(AuthContext)
+     const {createUser}=useContext(AuthContext)
     const [debug, setDebug]=useState()
     const [success,setSuccess]=useState()
     const [show,setShow]=useState();
@@ -29,7 +30,13 @@ if(password !== confirm){
     return
 }
 if(!/[a-z]/.test(password)){
-    setDebug('please one lower case characters')
+    setDebug('please use lower case characters')
+    return
+  
+    
+  }
+  if(!/[A-Z]/.test(password)){
+    setDebug('please use Upper case characters')
     return
   
     
@@ -86,9 +93,11 @@ if(!/[a-z]/.test(password)){
         <div className="form-control mt-6">
            
           <button className="btn btn-primary">Register</button>
-        </div>
-        {debug && <span className='text-red-500'>{debug}</span>}
-        {success && <span className='text-red-400'>{success}</span>}
+        </div>  
+       <div className='text-2xl font-bold text-center'>
+       {debug && <span className='text-red-500'>{debug}</span>}
+       {success && <span className='text-red-400'>{success}</span>}
+       </div>
       </form>
       <div className='flex mx-auto '>
         <h2 className='mr-9'>Have an account?</h2>

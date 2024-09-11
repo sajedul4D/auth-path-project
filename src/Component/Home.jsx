@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <br />
       <div className='mx-auto '>
-        <h2 className='text-4xl top-5 font-poppins font-bold text-black text-center'><span className='text-red-500'>WEl</span>come to Our <span className='text-blue-500
+        <h2 className='text-4xl top-5 font-poppins font-bold text-black text-center'><span className='text-red-500'>W</span>elcome to Our <span className='text-blue-500
         '>Tourist</span>  Zone 
         And find <br /> your Tourist Place</h2> <br />
         <p className='font-poppins font-semibold text-center'>in this website you can know that any tourist place. <br /> How to you Going any Tourist <br /> place.how much your cost.everyThing you learn this website . etc </p>

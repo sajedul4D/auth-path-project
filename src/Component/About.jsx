@@ -1,10 +1,11 @@
 import { IoManSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
    <div>
      <div
-  className="hero min-h-screen"
+  className="hero mx-auto w-[1150px] h-[400px]"
   style={{
     backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
   }}>
@@ -15,7 +16,7 @@ const About = () => {
       <p className="mb-5 text-2xl">
       The dude who runs this website 
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <Link to="/login"><button className="btn btn-primary">Get Started</button></Link>
     </div>
    
   </div>

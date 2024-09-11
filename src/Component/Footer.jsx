@@ -1,13 +1,16 @@
-import React from 'react';
+import { useContext } from "react";
+import { AuthContext } from "../AuthProvider/Provider";
+
 
 const Footer = () => {
+  const {user}=useContext(AuthContext)
     return (
         <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <a className="link link-hover">{user && <span>{user.email} </span>}</a>
   </nav>
   <nav>
     <div className="grid grid-flow-col gap-4">
