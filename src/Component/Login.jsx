@@ -3,10 +3,10 @@
 import { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/Provider';
-
+import { FaFacebookSquare ,FaGoogle} from "react-icons/fa";
 
 const Login = () => {
-  const {CreateLogin,googleLogin}=useContext(AuthContext);
+  const {CreateLogin, logingoole,signWithFb}=useContext(AuthContext);
   const location=useLocation();
   const navigate=useNavigate();
   
@@ -25,14 +25,21 @@ const Login = () => {
          console.error(error)
          })
      }
-     const handleGoogle=()=>{
-      googleLogin()
+     const handlegoogle=()=>{
+      logingoole()
       .then(result=>{
-        console.log(result.user)
+        console.log(result.user);
         navigate(location ?.state ? location.state : "/")
       })
-  
-    }
+     }
+     const handleSignWithFb=()=>{
+      signWithFb()
+      .then(result=>{
+        console.log(result.user);
+        navigate(location ?.state ? location.state : "/")
+      })
+     }
+    
     return (
         <div>
           <h2 className='text-4xl font-poppins font-extrabold text-center'>Hurry up! Login Now</h2> <br />
@@ -68,15 +75,20 @@ const Login = () => {
                   <button className="btn btn-primary">Login</button>
                 </div>
               </form>
-              <div className="flex gap-10">
-    <button onClick={handleGoogle} className="btn btn-accent ">Google</button>
-          
-          {/* <button onClick={handleFacebook} className="btn btn-accent">FaceBook</button>
-          <button onClick={handleGithub} className="btn btn-accent">Github</button> */}
-    </div>
+   
                <div className='flex mx-auto'> 
                 <h2 className='mr-20'>Are you New?</h2>
                <h3 className='ml-3'><Link to="/register" className='text-center text-blue-300'>Crate a account</Link></h3>
+               </div>
+               <div>
+                <h2 className='text-center text-xl font-bold'>Login with</h2>
+                <div>
+                <button onClick={handlegoogle} className='btn btn-outline w-full'> <FaGoogle></FaGoogle> Login with Google </button>
+                <button onClick={handleSignWithFb} className="btn btn-outline w-full">
+            <FaFacebookSquare></FaFacebookSquare>
+          Login with FaceBook
+          </button>
+                </div>
                </div>
             </div>
           </div>

@@ -1,5 +1,14 @@
 import { IoManSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import im1 from '../assets/WhatsApp Image 2024-04-14 at 13.40.16_3f3db134.jpg'
+import img2 from '../assets/dog/pexels-barb-landro-1047495652-28309095.jpg'
+import img3 from '../assets/dog/pexels-ketchumcommunity-2306831.jpg'
+import img4 from '../assets/dog/pexels-shvetsa-4587991.jpg'
+import img5 from '../assets/dog/pexels-viktoriab-1078090.jpg'
+import back from '../assets/dog/group-person-friend-together-boy-girl-vector-illustration-happy-team-friendship-character-diverse-cartoon-isolated-social-hug-245743698.webp'
+
+
+
 
 const About = () => {
     return (
@@ -7,7 +16,7 @@ const About = () => {
      <div
   className="hero mx-auto w-[1150px] h-[400px]"
   style={{
-    backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+    backgroundImage: `url(${back})`,
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
@@ -57,34 +66,34 @@ Eventually, I left Hanoi to live out of a backpack for months on end. And finall
 		<p className="max-w-2xl text-center dark:text-gray-600">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
 		<div className="flex flex-row flex-wrap-reverse justify-center">
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?0" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={img3} />
 				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
 				<p className="dark:text-gray-600">Visual Designer</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?1" />
-				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
-				<p className="dark:text-gray-600">Visual Designer</p>
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={img2} />
+				<p className="text-xl font-semibold leading-tight">Leroy tain</p>
+				<p className="dark:text-gray-600"> Designer</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?2" />
-				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
-				<p className="dark:text-gray-600">Visual Designer</p>
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={img4} />
+				<p className="text-xl font-semibold leading-tight">rifat Jenkins</p>
+				<p className="dark:text-gray-600">react dev</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?3" />
-				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
-				<p className="dark:text-gray-600">Visual Designer</p>
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={img5} />
+				<p className="text-xl font-semibold leading-tight">aumi</p>
+				<p className="dark:text-gray-600">Html&css</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?4" />
-				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
-				<p className="dark:text-gray-600">Visual Designer</p>
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={img4} />
+				<p className="text-xl font-semibold leading-tight">siam Jenkins</p>
+				<p className="dark:text-gray-600"> Designer</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?5" />
-				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
-				<p className="dark:text-gray-600">Visual Designer</p>
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={im1} />
+				<p className="text-xl font-semibold leading-tight">hero Jenkins</p>
+				<p className="dark:text-gray-600">CEO</p>
 			</div>
 		</div>
 	</div>

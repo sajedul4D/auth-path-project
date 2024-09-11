@@ -8,6 +8,7 @@ import Contact from "../Component/Contact";
 import About from "../Component/About";
 import Update from "../Component/Update";
 import Privet from "../Component/Privet";
+import Review from "../Component/Review";
 
  const router=createBrowserRouter([{
     path:"/",
@@ -42,6 +43,9 @@ import Privet from "../Component/Privet";
         {
             path:'/update',
             element:<Update></Update>
+        },{
+            path:"/review",
+            element:<Review></Review>
         }
     ]
 

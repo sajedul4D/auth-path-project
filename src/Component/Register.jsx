@@ -1,25 +1,29 @@
 import  {  useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 import { FaRegEye,FaEyeSlash } from "react-icons/fa";
 import { AuthContext } from '../AuthProvider/Provider';
 
 const Register = () => {
    
-     const {createUser}=useContext(AuthContext)
+     const {createUser,updateUserProfile}=useContext(AuthContext)
     const [debug, setDebug]=useState()
     const [success,setSuccess]=useState()
     const [show,setShow]=useState();
+    const location=useLocation()
+    const navigate=useNavigate();
+    const make=location?.state || "/" ;
     
     const handleRegister=e=>{
         e.preventDefault()
         const from=new FormData(e.currentTarget);
-        const name=from.get("name")
+        const name=from.get("name");
+        const photo=from.get("photo")
         
         const email=from.get('email');
         const password=from.get('password');
         const confirm=from.get("confirm")
-        console.log(name,email,password,confirm);
+        console.log(name,photo ,email,password,confirm);
 
 if(password.length <6){
  setDebug("please use must be 6 characters")
@@ -44,9 +48,14 @@ if(!/[a-z]/.test(password)){
 
 
         createUser(email,password)
-        .then(result=>{
-            console.log(result.user);
-            setSuccess('your Registration successfully')
+        .then(()=>{
+          updateUserProfile(name,photo)
+      .then(()=>{
+        setSuccess('your Registration successfully')
+            navigate(make)
+      })
+            
+           
         })
         .catch(error=>{
             console.error(error)
@@ -68,6 +77,12 @@ if(!/[a-z]/.test(password)){
             <span className="label-text">Name</span>
           </label>
           <input type="name" placeholder="name" name='name' className="input input-bordered" required />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Photo</span>
+          </label>
+          <input type="Photo" placeholder="Photo" name='Photo' className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
