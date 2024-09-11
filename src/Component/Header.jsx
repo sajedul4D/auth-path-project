@@ -23,7 +23,7 @@ const Header = () => {
     <li><NavLink to="/contact">Contact</NavLink></li>
     {
       user &&  <> <li><NavLink to="/review">Review</NavLink></li>
-       <li><NavLink to="/update">Profile Update</NavLink></li> </>
+       <li><NavLink to="/update">Profile </NavLink></li> </>
     }
     </>
     return (

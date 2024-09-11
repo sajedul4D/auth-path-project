@@ -4,9 +4,12 @@ import { Navigate, useLocation } from "react-router-dom";
 
 
 const Privet = ({children}) => {
-    const {user}=useContext(AuthContext);
+    const {user,loading}=useContext(AuthContext);
     const location=useLocation();
     console.log(location.pathname);
+    if(loading){
+        return <span className="loading loading-ring loading-lg"></span>
+    }
 if(user){
     return children
 }
