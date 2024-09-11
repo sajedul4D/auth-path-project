@@ -3,10 +3,10 @@
 import { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/Provider';
-import { FaFacebookSquare ,FaGoogle} from "react-icons/fa";
+import { FaFacebookSquare ,FaGoogle,FaGithub } from "react-icons/fa";
 
 const Login = () => {
-  const {CreateLogin, logingoole,signWithFb}=useContext(AuthContext);
+  const {CreateLogin, logingoole,signWithFb,signWithGithub}=useContext(AuthContext);
   const location=useLocation();
   const navigate=useNavigate();
   
@@ -34,6 +34,13 @@ const Login = () => {
      }
      const handleSignWithFb=()=>{
       signWithFb()
+      .then(result=>{
+        console.log(result.user);
+        navigate(location ?.state ? location.state : "/")
+      })
+     }
+     const handleGithub=()=>{
+      signWithGithub()
       .then(result=>{
         console.log(result.user);
         navigate(location ?.state ? location.state : "/")
@@ -81,13 +88,14 @@ const Login = () => {
                <h3 className='ml-3'><Link to="/register" className='text-center text-blue-300'>Crate a account</Link></h3>
                </div>
                <div>
-                <h2 className='text-center text-xl font-bold'>Login with</h2>
+                <h2 className='text-center text-xl font-bold'>Login with</h2> <hr /> <br />
                 <div>
                 <button onClick={handlegoogle} className='btn btn-outline w-full'> <FaGoogle></FaGoogle> Login with Google </button>
                 <button onClick={handleSignWithFb} className="btn btn-outline w-full">
             <FaFacebookSquare></FaFacebookSquare>
           Login with FaceBook
           </button>
+          <button className='btn btn-outline w-full'> <FaGithub></FaGithub> login with github</button>
                 </div>
                </div>
             </div>
