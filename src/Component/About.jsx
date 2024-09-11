@@ -14,7 +14,7 @@ const About = () => {
     return (
    <div>
      <div
-  className="hero mx-auto w-[1150px] h-[400px]"
+  className="hero mx-auto lg:w-[1150px] h-[400px]  md:w-[850px]"
   style={{
     backgroundImage: `url(${back})`,
   }}>
@@ -31,7 +31,7 @@ const About = () => {
   </div>
  
 </div> <br />
-<div className="mx-auto text-center w-[1150px]">
+<div className="mx-auto text-center lg:w-[1150px] md:w-[850px] [450px]   sm: w-[450px]">
         <h2 className='text-4xl font-poppins font-extrabold'>SO Far</h2> <hr />
         <p>These are a few ways to quantify what has happened since Peter’s Big Adventure was launched in 2014.
 <span className="font-mono text-black ">
@@ -51,19 +51,19 @@ DISCLAIMER: I write about a lot of things that I am not an expert on. I’m not 
 
         </div>
         <hr /> <br />
-        <div className="mx-auto text-center w-[1150px] font-serif">
+        <div className="mx-auto text-center  lg:w-[1150px] md:w-[850px] [450px]   sm:w-[450px] font-serif">
         <p>I was born and raised in noakhali, Ohio, attended college in DPI, Dhaka, and I got my first taste of true travel the age of 12, alone, playing soccer on a dirt field on the rural Pacific coast of Northern Mexico with a bunch of local guys wearing sombreros. Not sure where my parents were, but it was a helluva way to get my feet wet, and travel has been part of the deal ever since. In the following years, I spent time exploring Latin America, Europe, and even lived in Madrid (Spain) for a hot minute. However, this site wasn’t launched until I moved from Boston to Hanoi (Vietnam) to work as an English teacher, and to be perfectly honest, it probably would not have grown to be what it is today if it wasn't for one unfortunate trait: anxiety. 
 
 Anxiety has been a life-long struggle for me. It colors almost every moment of every day, and it does its best to prevent me from doing the things that I want to do. This blog began as a way to verify my well-being to friends and family when I moved to Hanoi, but as time went on, it grew into something much more important. It challenged me. It held me accountable. It forced me to do and experience things that I otherwise might not have. It's still common for me to be up late worrying when I have a flight the next day (I'm a nervous flyer), but come sunrise, I'm gritting my teeth and getting on the plane, anxiety be damned. Some might call it an elaborate coping mechanism (and they wouldn't be entirely wrong), but I see as a way to be intentional about writing my own story. Pun intended. 
 
 Eventually, I left Hanoi to live out of a backpack for months on end. And finally, after a year and a half of globetrotting, I crash-landed back in the U.S., relocating to Nashville, Tennessee to try my hand at music. I spent 8+ years there, working on my project, The Great Palumbo (and traveling whenever possible along the way) before deciding to move on to the next chapter. In 2023, I relocated to London, England for grad school, and the rest of the story has yet to be written! </p>
         </div>
-        <div className="mx-auto text-center w-[1150px] font-serif">
-            <h2>our member</h2>
+        <div className="mx-auto text-center w-[1150px] font-serif md:w-[850px] sm:w-[450px]">
+            
             <section className="py-6 dark:bg-gray-100 dark:text-gray-800">
 	<div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-		<h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">Our team</h1>
-		<p className="max-w-2xl text-center dark:text-gray-600">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
+		<h1 className="text-4xl font-bold leading-none text-center lg:w-[1150px] md:w-[850px] [450px]   sm:text-5xl w-[450px]">Our team</h1>
+		<p className="max-w-2xl text-center dark:text-gray-600 ">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
 		<div className="flex flex-row flex-wrap-reverse justify-center">
 			<div className="flex flex-col justify-center m-8 text-center">
 				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={img3} />
@@ -98,7 +98,7 @@ Eventually, I left Hanoi to live out of a backpack for months on end. And finall
 		</div>
 	</div>
 </section>
-<div className="mx-auto text-center w-[1150px] font-serif">
+<div className="mx-auto text-center  font-serif ">
 <h2 className="text-4xl font-poppins font-bold">Shout-Out</h2> <hr /> <br />
 <p className="font-mono">The further I travel, the more my faith in humanity is affirmed. Very little of this would have been possible without the help and encouragement of the all the amazing people I've met along the way. 
 

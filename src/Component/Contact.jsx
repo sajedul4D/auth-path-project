@@ -2,10 +2,10 @@
 
 const Contact = () => {
     return (
-        <section className="py-6 dark:bg-gray-100 dark:text-gray-900">
-            <div>
+        <section className="py-6 dark:bg-gray-100 dark:text-gray-900 ">
+            <div >
                 <h2 className="text-4xl font-poppins font-extrabold text-center">Yo!</h2> <br />
-            <h2 className="w-[650px] font-poppins text-xl mx-auto">If you’re looking at this and you have no other alternative for getting in touch with me, it means that I have succeeded in getting somebody other than my friends and family to read this blog. So make my day and hit me up! I do my best to respond to every email I get within a few days. 
+            <h2 className="w-[650px] font-poppins text-xl mx-auto lg:w-[1150px] md:w-[850px] [450px]   sm: w-[450px]">If you’re looking at this and you have no other alternative for getting in touch with me, it means that I have succeeded in getting somebody other than my friends and family to read this blog. So make my day and hit me up! I do my best to respond to every email I get within a few days. 
 
 HOWEVER, if you’re reaching out looking to collaborate or partner in some way—don’t bother. The only person who will ever write on this site is me and I am (mostly) committed to never monetizing this. I’ve tainted too many of my former passions by turning them into jobs, so I want to keep this project sacred and personal. 
 
